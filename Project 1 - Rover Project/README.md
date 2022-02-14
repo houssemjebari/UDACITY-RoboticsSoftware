@@ -47,7 +47,7 @@ The perception pipeline takes camera images and calibrates them to obtain a map 
 ## 7 - Decision making
 The decision making relies on a finite state machine and a decision tree models to send control commands to the robot based on the perception data. the models for decision making are show below 
 
-[image_2]: ./output/decision_tree.png
+[image_2]: ./output/decision_tree.PNG
 
 ![alt text][image_2] 
 
