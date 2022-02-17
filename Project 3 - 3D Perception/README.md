@@ -24,7 +24,7 @@ During this first stage of input data cloud processing the following processes w
 
 the following images shows the output of these steps where we have point clouds of objects of interest only.
 
-[image_1]: ./misc_images/ransac.PNG
+[image_1]: ./misc_images/ransac.png
 
 ![alt text][image_1] 
 
