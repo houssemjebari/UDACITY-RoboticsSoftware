@@ -43,14 +43,19 @@ The network is composed of an `encoder` and a  `decoder`.
 ## 4 - Results
 results of the network training are shown above and a crossentropy loss of `0.06` was achieved.
 
-[image_3]: ./docs/misc/output1.png
-![alt text][image_3] 
+<p align="center">
+<img src="./docs/misc/output1.png" 
+        alt="Picture"  
+        style="display: block; margin: 0 auto" />
 
 and the predicted mask is shown above 
 
-[image_4]: ./docs/misc/output2.png
-![alt text][image_4] 
-
+<p align="center">
+<img src="./docs/misc/output2.png" 
+        alt="Picture"  
+        style="display: block; margin: 0 auto" />
+ 
+ 
 ## 5 - Launching the project and Training 
 You can open this project in google colab 
 and try running it and training the network
