@@ -22,8 +22,10 @@ Our network is a Fully Convolutional Network that gets images of shape (128,128,
 ### **Hyper Parameter Tuning**
  To tune the deep neural network hyperparameters we have set a workflow for tuning shown in the figure below.
 
-[image_1]: ./docs/misc/workflow.png
-![alt text][image_1] 
+<p align="center">
+<img src="./docs/misc/Workflow.png" 
+        alt="Picture"  
+        style="display: block; margin: 0 auto" />
 
 * We first started by fixing `epochs` , `batch size` and `learning rates` and tune the number of layers and number of kernels of the model. The more the validation loss the better.
 * We tune the `epochs` , `batch size` and `learning rates` using a grid search to tune them all at once since they are dependant.
