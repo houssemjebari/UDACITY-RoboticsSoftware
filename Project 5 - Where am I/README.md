@@ -7,7 +7,7 @@
 In this project, we used ROS packages to accurately localize a mobile robot inside a provided map in the Gazebo and RViz simulation environments
 
 
-## 2 - Dependencies
+## 1 - Dependencies
 
 This project can be tested on any ROS version! just install `AMCL` and `MOVE_BASE` packages.
 ```
@@ -17,7 +17,7 @@ $ sudo apt-get install ros-noetic-move-base
 $ rospack profile
 $ sudo apt-get install ros-noetic-amcl
 ```
-## 3 - Localization algorithm
+## 2 - Localization algorithm
 
 * The `AMCL` package uses particle filtering to localize the robot in a known map but in addition uses an adaptive number of particles which makes it more computationally efficient that classical algorithms.
 the `MOVE_BASE` package contains global and local planners that enables the robot to navigate to any point in the map. 
@@ -26,7 +26,7 @@ the `MOVE_BASE` package contains global and local planners that enables the robo
 If you want to further tune the localizer, refer to the [documentation](http://wiki.ros.org/move_base) to know which parameters to tune.
 
 
-## 5 - Launching the project 
+## 3 - Launching the project 
 
 Clone this project into src folder in your ROS workspace then -
 
