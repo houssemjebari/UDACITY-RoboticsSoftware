@@ -1,5 +1,5 @@
 
-[image_0]: ./misc/output1.PNG
+[image_0]: ./misc/output1.png
 ![alt text][image_0] 
 
 # Where Am I ? 
