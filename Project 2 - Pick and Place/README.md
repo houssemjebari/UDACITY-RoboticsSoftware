@@ -1,5 +1,5 @@
 [//]: # (Image References)
-[image_0]: ./misc_images/misc2-1.png
+[image_0]: ./misc_images/misc2.png
 ![alt text][image_0] 
 
 # Robotic arm - Pick & Place project
@@ -36,8 +36,13 @@ Solving for the orientation joint angles is straight forward. For the position j
 [image_3]: ./misc_images/misc3.png
 ![alt text][image_3] 
 
+## 3 - Results
 
-## 3 - Launching the project
+[image_4]: ./misc_images/pick-place.gif
+![alt text][image_4] 
+
+
+## 4 - Launching the project
 You can launch the project by
 ```sh
 $ cd ~/catkin_ws/src/RoboND-Kinematics-Project/kuka_arm/scripts
